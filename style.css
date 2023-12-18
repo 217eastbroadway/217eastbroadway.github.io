@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');                
+
 body, html {
     height: 100%;
     margin: 0;
@@ -10,7 +12,56 @@ body{
     background-color: black;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+.main-header{
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+
+    color: white;
+
+    text-align: center;
+    text-shadow: 3px 3px 8px rgb(225, 225, 225);
+}
+
+.single-project{
+    width: 400px;
+    height: 250px;
+
+    box-shadow: 5px 5px 5px white;
+
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.single-project-url{
+    font-family: 'Helvetica Neue';
+    font-weight: 700;
+    font-size: 25px;
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+    text-shadow: 3px 3px 8px rgb(225, 225, 225);
+
+    text-decoration: none;
+}
+
+@keyframes image-blur {
+    0% {filter: blur(0px);}
+    50% {filter: blur(2px);}
+    100% {filter: blur(4px);}
+}
+
+.single-project-image{
+    width: 400px;
+    height: 250px;
+}
+
+.single-project-image:hover{
+    animation: image-blur 1s;
+    filter: blur(4px);
+}
+
+.single-project-image:hover::after{
+    animation: image-blur 1s linear 0s infinite reverse;
+    filter: blur(0x);
 }
