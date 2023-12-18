@@ -23,8 +23,8 @@ body{
 }
 
 .single-project{
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
 
     box-shadow: 5px 5px 5px white;
 
@@ -52,8 +52,8 @@ body{
 }
 
 .single-project-image{
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
 }
 
 .single-project-image:hover{
