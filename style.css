@@ -40,7 +40,6 @@ body{
 
     color: rgb(255, 255, 255);
 
-    text-align: center;
     text-shadow: 3px 3px 8px rgb(225, 225, 225);
 
     text-decoration: none;
@@ -60,9 +59,4 @@ body{
 .single-project-image:hover{
     animation: image-blur 1s;
     filter: blur(4px);
-}
-
-.single-project-image:hover::after{
-    animation: image-blur 1s linear 0s infinite reverse;
-    filter: blur(0x);
 }
