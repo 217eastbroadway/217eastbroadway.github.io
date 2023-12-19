@@ -20,12 +20,15 @@ body{
 
 .main-header{
     font-family: 'Helvetica Neue';
-    font-weight: 100;
-
     color: white;
 
     text-align: center;
     text-shadow: 3px 3px 8px rgb(225, 225, 225);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .single-project{
