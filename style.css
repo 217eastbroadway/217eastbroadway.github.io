@@ -58,7 +58,7 @@ h1{
     width: 300px;
     height: 175px;
     display: block;
-    border-radius: 2px;
+    border-radius: 3px;
     margin-bottom: 5px;
     
     animation: blur-out 1s;
