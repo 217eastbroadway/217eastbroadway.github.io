@@ -60,3 +60,35 @@ body{
     animation: image-blur 1s;
     filter: blur(4px);
 }
+
+.spotify-link{
+    width: 200px;
+    height: 200px;
+
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 30px;
+
+    color: rgb(255, 255, 255);
+
+    text-shadow: 3px 3px 8px rgb(225, 225, 225);
+
+    text-decoration: none;
+
+
+    margin: auto;
+    margin-top: 100px;
+}
+
+.spotify-logo{
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin:auto;
+    margin-bottom: 10px;
+}
+
+.spotify-logo:hover{
+    animation: image-blur 1s;
+    filter: blur(4px);
+}
