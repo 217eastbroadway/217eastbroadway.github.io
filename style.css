@@ -1,5 +1,19 @@
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');                
 
+@keyframes blur-in {
+    0% {filter: blur(0px);}
+    100% {filter: blur(4px);}
+}
+
+@keyframes blur-out {
+    0% {filter: blur(4px);}
+    100% {filter: blur(0px);}
+}
+
+.center{
+    text-align: center;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -24,10 +38,11 @@ body{
 }
 
 .single-project{
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 175px;
 
     box-shadow: 5px 5px 5px white;
+    border-radius: 3px;
 
     margin: auto;
     margin-bottom: 50px;
@@ -45,23 +60,22 @@ body{
     text-decoration: none;
 }
 
-@keyframes image-blur {
-    0% {filter: blur(0px);}
-    50% {filter: blur(2px);}
-    100% {filter: blur(4px);}
-}
-
 .single-project-image{
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 175px;
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    
+    animation: blur-out 1s;
 }
 
 .single-project-image:hover{
-    animation: image-blur 1s;
+    animation: blur-in 1s;
     filter: blur(4px);
 }
 
-.spotify-link{
+.single-link{
     width: 200px;
     height: 200px;
 
@@ -71,24 +85,45 @@ body{
 
     color: rgb(255, 255, 255);
 
+    display: inline-block;
+
     text-shadow: 3px 3px 8px rgb(225, 225, 225);
 
     text-decoration: none;
-
-
-    margin: auto;
-    margin-top: 100px;
+    text-align: center;
 }
 
-.spotify-logo{
+.link-logos{
     width: 75px;
     height: 75px;
     display: block;
     margin:auto;
     margin-bottom: 10px;
+
+    animation: blur-out 1s;
 }
 
-.spotify-logo:hover{
-    animation: image-blur 1s;
+.link-logos:hover{
+    animation: blur-in 1s;
     filter: blur(4px);
+}
+
+h3{
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 25px;
+
+    color: white;
+
+    text-align: center;
+    text-shadow: 3px 3px 8px rgb(225, 225, 225);
+}
+
+.space{
+    margin-top: 100px;
+}
+
+hr{
+    margin-top: 50px;
+    width: 350px;
 }
