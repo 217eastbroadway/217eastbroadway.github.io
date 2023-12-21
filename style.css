@@ -18,17 +18,29 @@ body{
     background-color: black;
 }
 
-.main-header{
+.header217{
     font-family: 'Helvetica Neue';
+    font-weight: 700;
+    font-size: 35px;
+
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgb(225, 225, 225);
+
+    margin-bottom: 40px;
+}
+
+.typeInit{
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 25px;
+
     color: white;
 
     text-align: center;
     text-shadow: 3px 3px 8px rgb(225, 225, 225);
-}
-
-h1{
-    font-weight: 700;
-    font-size: 35px;
+    
+    margin-bottom: 30px;
 }
 
 .single-project{
@@ -102,22 +114,11 @@ h1{
     filter: blur(4px);
 }
 
-h3{
-    font-family: 'Helvetica Neue';
-    font-weight: 300;
-    font-size: 25px;
-
-    color: white;
-
-    text-align: center;
-    text-shadow: 3px 3px 8px rgb(225, 225, 225);
-}
-
 .space{
     margin-top: 100px;
 }
 
 hr{
-    margin-top: 50px;
+    margin-top: 60px;
     width: 350px;
 }
